@@ -5,9 +5,9 @@
 <li>Introduction to Top 100 codes</li>
 <a href="https://youtu.be/fZO3ZttE6hE"><img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/58e436f3-db88-4522-958e-f4bc656e0d1f"></a>
 <h3>Question 1:Positive or Negative Numbers</h3>
+
 ```js
 #include <stdio.h>
-
 int main()
 {
     int a;
@@ -22,4 +22,4 @@ int main()
     return 0;
 }
 ```
-```
+
