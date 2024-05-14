@@ -8,6 +8,7 @@
 <hr/>
 
 <h3>Question 1: Positive or Negative Numbers</h3>
+
 ```js
 #include <stdio.h>
 int main()
@@ -24,3 +25,24 @@ int main()
     return 0;
 }
 ```
+
+<h3>Question 2: Even or positive numbers</h3>
+
+```js
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter n:");
+    scanf("%d",&n);
+    if(n%2==0){
+        printf("positive");
+    }
+    else{
+        printf("negative");
+}
+return 0;
+}
+```
+
