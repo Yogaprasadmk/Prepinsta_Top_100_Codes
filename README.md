@@ -19,14 +19,17 @@ int main()
     if(a>0){
         printf("positive");
     }
-    else{
+    else if(a < 0){
         printf("negative");
+    }
+    else {
+        printf("zero");
     }
     return 0;
 }
 ```
 
-<h3>Question 2: Even or positive numbers</h3>
+<h3>Question 2: Even or odd numbers</h3>
 
 ```js
 #include <stdio.h>
@@ -37,11 +40,11 @@ int main()
     printf("Enter n:");
     scanf("%d",&n);
     if(n%2==0){
-        printf("positive");
+        printf("even");
     }
     else{
-        printf("negative");
-}
+        printf("odd");
+    }
 return 0;
 }
 ```
