@@ -78,3 +78,17 @@ int main(){
     return 0;
 }
 ```
+
+<h3>Question:5 Sum of given range number</h3>
+
+```js
+print("Enter N:")
+N = int(input())
+print("Enter S:")
+S = int(input())
+sum = 0;
+for i in range(N,S):
+    sum = sum + i
+
+print(sum)
+```
