@@ -64,3 +64,17 @@ int main(){
 }
 ```
 
+<h3>Question 4: Sum of Natural numbers</h3>
+
+```js
+#include<stdio.h>
+int main(){
+    int n;
+    printf("Enter n:");
+    scanf("%d",&n);
+    int a;
+    a = n * (n + 1) / 2;
+    printf("The Sum of Natural Number: %d",a);
+    return 0;
+}
+```
