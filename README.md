@@ -92,3 +92,16 @@ for i in range(N,S):
 
 print(sum)
 ```
+<h3>Question 6:Greatest of two numbers</h3>
+
+```js
+print("enter a:")
+a= int(input())
+print("Enter b:")
+b = int(input())
+if(a>b):
+print("a is greater")
+else:
+print("b is greater")
+```
+<
