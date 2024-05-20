@@ -136,9 +136,9 @@ int main()
 
 
 ```
-Leap = int(input("Enter Leap:"))
-if(Leap % 4 == 0):
-  print("leap year")
+leap = int(input("Enter Leap Year"))
+if(leap%4==0):
+    print("Leap Year")
 else:
-  print("not leap year")
+    print("Not a leap year")
 ```
