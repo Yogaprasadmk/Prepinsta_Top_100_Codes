@@ -131,3 +131,14 @@ int main()
     return 0;
 }
 ```
+
+<h3>Question 8: LeapYear or not</h3>
+
+
+```
+Leap = int(input("Enter Leap:"))
+if(Leap % 4 == 0):
+  print("leap year")
+else:
+  print("not leap year")
+```
