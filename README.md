@@ -134,11 +134,44 @@ int main()
 
 <h3>Question 8: LeapYear or not</h3>
 
-
-```
+```js
 leap = int(input("Enter Leap Year"))
 if(leap%4==0):
     print("Leap Year")
 else:
     print("Not a leap year")
 ```
+
+<h3>Question 9: Prime Numbers</h3>
+
+```js
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    printf("Enter N:");
+    scanf("%d",&n);
+    int divide;
+    printf("Enter Div:");
+    scanf("%d",&divide);
+    while(divide<n)
+    {
+        if(n%divide==0)
+        {
+            printf("Not Prime");
+            break;
+        }
+        else{
+            divide = divide + 1;
+            printf("Prime");
+            break;
+        }
+    }
+    return 0;
+}
+```
+<h3>🌟FLowchart and Pseudocode for Primenumbers</h3>
+<img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/7145948a-bc56-40a6-a814-7f6baf3bfef4"/>
+<h3><a href="https://youtu.be/AYcQ9ImSMws?si=DrO9RJTM-ueXiiHB">🚀Click here to Play Video</a></h3>
