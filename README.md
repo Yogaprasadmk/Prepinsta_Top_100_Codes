@@ -1,4 +1,4 @@
-<h1><a href="https://prepinsta.com/top-100-codes/">Prepinsta_Top_100_Codes</a></h1>
+![image](https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/9ef11239-28d5-45e1-9c38-0118493b25c6)<h1><a href="https://prepinsta.com/top-100-codes/">Prepinsta_Top_100_Codes</a></h1>
 <p>Below You will find some of the most important codes in languages like C, C++ and Java,Python. These codes are of prime importance for college semester exams and also for various online tests and interviews of the companies offering placements within varying range in LPA.These codes are very important since these will help you clear your basic concepts in various languages.</p>
 <hr/>
 <h3>Getting Started</h3>
@@ -175,3 +175,29 @@ int main()
 <h3>🌟FLowchart and Pseudocode for Primenumbers</h3>
 <img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/7145948a-bc56-40a6-a814-7f6baf3bfef4"/>
 <h3><a href="https://youtu.be/AYcQ9ImSMws?si=DrO9RJTM-ueXiiHB">🚀Click here to Play Video</a></h3>
+
+<h3>Questio 10:Sum of Digits</h3>
+
+```js
+public class Main{
+    public static void main (String[] args) {
+         int a = 123;
+         int count = 0;
+         int lastdigit = 0;
+        while(a>0){
+             
+            lastdigit = a % 10;
+            
+            count = lastdigit + count;
+            
+            a = a/ 10;
+        }
+        System.out.println(count);
+         
+    }
+}
+```
+
+<h3>🌟Pseudocode:</h3>
+<img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/01acaf73-7527-4152-8534-7f96fc29cfff">
+<h3><a href="https://youtu.be/1xNbjMdbjug?si=fefk0KPGl0WQWQ-0">🚀Click here to Play Video</a></h3>
