@@ -201,3 +201,29 @@ public class Main{
 <h3>🌟Pseudocode:</h3>
 <img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/01acaf73-7527-4152-8534-7f96fc29cfff">
 <h3><a href="https://youtu.be/1xNbjMdbjug?si=fefk0KPGl0WQWQ-0">🚀Click here to Play Video</a></h3>
+
+
+<h3>Question 11: Reverse Number</h3>
+
+```js
+public class ReverseNumber
+{
+	public static void main(String[] args) {
+	    
+	    int a = 6789;
+	    int dup = 0;  // duplicate
+	    int lastdigit = 0;
+	    while(a>0){
+	        lastdigit = a % 10;
+	        dup = (dup * 10) + lastdigit;
+	        a = a / 10;
+      }
+	    if(dup != a){
+	        System.out.println("Reverse Number: "+ dup);
+	    }
+	    else{
+	        System.out.println("Not a Reverse Number: "+ dup);
+	    }
+	}
+}
+```
