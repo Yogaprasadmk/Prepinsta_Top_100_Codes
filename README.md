@@ -253,3 +253,31 @@ public class Palindrome
 }
 ```
 
+<h1>Question 13: Armstrong Number</h1>
+
+```js
+public class Main
+{
+	public static void main(String[] args) {
+		int a = 153;
+		int dup = a;
+		int sum = 0;
+		int lastdigit = 0;
+		while (a>0){
+		    lastdigit = a % 10;
+		    sum = sum + (lastdigit* lastdigit * lastdigit);
+		    a = a / 10;
+		}
+		if(sum == dup){
+		    System.out.println("Armstrong nUmber");
+		}
+		else{
+		    System.out.println("NOt Armstrong number");
+		}
+	}
+}
+
+```
+<h3>Pseudocode</h3>
+<img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/be8bbc70-f3f2-48f7-ae05-1c335e53491c">
+<h3><a href="https://youtu.be/1xNbjMdbjug?si=fefk0KPGl0WQWQ-0">🚀Click here to Play Video</a></h3>
