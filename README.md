@@ -305,3 +305,16 @@ class Main{
     }
 }
 ```
+
+<h1>Question 15: Power of a number</h1>
+
+```js
+public class Main{
+  public static void main(String args[]){
+    int a = 5;
+    int b = 2;
+    System.out.println(Math.pow(a,b));
+  }
+}
+```
+
