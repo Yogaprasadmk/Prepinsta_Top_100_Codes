@@ -318,3 +318,33 @@ public class Main{
 }
 ```
 
+<h1>Question 16: Harshaad Number</h1>
+
+```js
+
+import java.util.Scanner;
+class Main{
+public static void main(String args){
+Scanner S = new Scanner (System.in);
+System.out.println("Enter Number:");
+int harshad  = S.nextInt();
+int last = 0;
+int dup = harshad;
+int sum = 0;
+while(harshad!=0){
+last = harshad % 10;
+sum = sum + last;
+harshad = harshad / 10;
+}
+if(harshad%sum==0){
+System.out.println("Harshaad Number");
+}
+else{
+System.out.println("Not a Harshaad Number");
+}
+}
+
+```
+<h3>Concept:</h3>
+<img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/23307b3f-51bc-41e9-910a-e9a8a4290479" width=400 height=400/>
+
