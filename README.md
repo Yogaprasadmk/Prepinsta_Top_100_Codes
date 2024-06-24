@@ -348,3 +348,25 @@ System.out.println("Not a Harshaad Number");
 <h3>Concept:</h3>
 <img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/23307b3f-51bc-41e9-910a-e9a8a4290479" width=400 height=400/>
 
+
+<h1>Question 17:Fibonacci Series</h1>
+
+```js
+// fibonacci series
+public class Main{
+    public static void main (String[] args) {
+        int n = 45;
+        int a = 0;
+        int b = 1;
+        int c = 0;
+        System.out.print(a +","+b+",");
+        for(int i = 2;i<n;i++){
+            c = a + b;
+            a = b;
+            b = c;
+            
+            System.out.print(c +" ");
+        }
+    }
+}
+```
