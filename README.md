@@ -434,7 +434,6 @@ System.out.println(num + " is a strong number");
 else {
 System.out.println(num + is not a Strong number");
 }
-}
 
 static int digit(int n){
 int fact = 1
@@ -463,3 +462,8 @@ flag = false;
 return flag;
 }
 }
+
+```
+
+<h3>Concept:</h3>
+<img src="https://github.com/Yogaprasadmk/Prepinsta_Top_100_Codes/assets/120255515/516cb60f-6b62-4a28-b366-31f154e4477b"/>
