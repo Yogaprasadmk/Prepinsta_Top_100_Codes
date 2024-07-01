@@ -372,12 +372,12 @@ public class Main{
 ```
 
 
-<h1>Question 18: Armstring NUmber within GIven range</h1>
+<h3>Question 18: Armstrong NUmber within Given range</h3>
 
 ```js
 
 class Main{
-public static voud main (String args[]){
+public static void main (String args[]){
 int l = 1;
 int h = 1000;
 for(int i = l;i<=h;i++){
